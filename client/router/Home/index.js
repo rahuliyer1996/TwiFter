@@ -20,7 +20,7 @@ export default [{
       return next({name: 'UserHome'})
     }
 
-    document.title = 'Twitter Clone'
+    document.title = 'TwiFter'
     next()
   }
 }, {

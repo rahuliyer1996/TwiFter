@@ -1,24 +1,4 @@
-# twitter-clone
 
-[![build](https://travis-ci.org/JayZang/twitter-clone.svg?branch=master)](https://travis-ci.org/JayZang/twitter-clone)
-
-> This project is built using [Node](https://nodejs.org/en/) and [Vue](https://vuejs.org/).  
-> The target is learning Vue framework and technique of backend to implement a SPA website.  
-> All right of picture and sign is reserved for [Twitter](https://twitter.com/).  
-> Used techniques, tools and packages by this project are not actually used by [Twitter](https://twitter.com/).  
-> Welcome technical exchange, if this project has mistake of code or concept of programming, let me know, thanks:thumbsup:
-
-![Demo](https://github.com/JayZang/Twitter-Web-Like/blob/master/Demo.gif?raw=true)
-
-## Main used package
-
-* [express](#express)
-* [mongoose](#mongoose)
-* [jsonwebtoken](#jsonwebtoken)
-* [vue](#vue)
-* vuex
-* vue-router
-* axios
 
 ## Feature
 

@@ -1,0 +1,25 @@
+[debug] [2020-03-27T12:21:09.281Z] ----------------------------------------------------------------------
+[debug] [2020-03-27T12:21:09.284Z] Command:       F:\nodejs\node.exe C:\Users\Ramesh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-03-27T12:21:09.284Z] CLI Version:   7.14.0
+[debug] [2020-03-27T12:21:09.284Z] Platform:      win32
+[debug] [2020-03-27T12:21:09.284Z] Node Version:  v12.16.1
+[debug] [2020-03-27T12:21:09.354Z] Time:          Fri Mar 27 2020 17:51:09 GMT+0530 (India Standard Time)
+[debug] [2020-03-27T12:21:09.354Z] ----------------------------------------------------------------------
+[debug] [2020-03-27T12:21:09.354Z] 
+[debug] [2020-03-27T12:21:09.372Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-27T12:21:09.373Z] > authorizing via signed-in user
+[debug] [2020-03-27T12:21:09.373Z] [iam] checking project twifter for permissions ["firebase.projects.get"]
+[debug] [2020-03-27T12:21:09.375Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/twifter:testIamPermissions  
+
+[debug] [2020-03-27T12:21:11.263Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-27T12:21:11.265Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twifter  
+ 
+[debug] [2020-03-27T12:21:11.732Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\final\twifter'...
+[info] 
+[debug] [2020-03-27T12:21:11.757Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twifter/webApps/-/config  
+ 
+[debug] [2020-03-27T12:21:12.592Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

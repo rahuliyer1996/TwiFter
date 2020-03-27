@@ -126,7 +126,7 @@ export default {
 
       if (!res.result) {
         this.errorMessage = res.errMsg
-        document.title = 'Twitter Clone'
+        document.title = 'TwiFter'
         return
       }
 

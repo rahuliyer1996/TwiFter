@@ -59,7 +59,7 @@ router.post('/', async (req, res) => {
     } else if (err.errors && err.errors.password) {
       errMsg = err.errors.password.message
     } else {
-      errMsg = '欄位請勿空白'
+      errMsg = '欄位Unable to connect to server'
     }
 
     res.json({

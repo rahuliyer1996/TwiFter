@@ -26,7 +26,7 @@ const actions = {
   regist: async ({commit}, para) => {
     if (!para.name || !para.account || !para.password || !para.password2) {
       return {
-        errMsg: '請勿空白',
+        errMsg: 'Unable to connect to server',
         result: false
       }
     }
@@ -44,7 +44,7 @@ const actions = {
   login: async ({commit}, para) => {
     if (!para.account || !para.password) {
       return {
-        errMsg: '帳號和密碼請勿空白',
+        errMsg: 'Unable to connect to serverUnable to connect to server',
         result: false
       }
     }
